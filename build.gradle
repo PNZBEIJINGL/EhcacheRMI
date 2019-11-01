@@ -17,6 +17,11 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.0.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.0.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '2.2.0.RELEASE'
+	compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.22.RELEASE'
+
 }
 
 test {
